@@ -1,0 +1,14 @@
+{
+  "name": "phoenix",
+  "version": "1.0.0",
+  "description": "From ashes",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix client\" \"npm run start --prefix server\"",
+    "install-all": "npm install --prefix client && npm install --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  },
+  "author": "Aurora Bailey",
+  "license": "MIT"
+}
